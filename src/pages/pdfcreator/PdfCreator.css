@@ -1,0 +1,15 @@
+
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.navigation Link{
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    
+}

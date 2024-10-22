@@ -1,0 +1,44 @@
+.file-con{
+    width:"50%";
+    width: 630px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius:0.5px ;
+    height: 503px;
+    border: 1px dotted gray;
+    padding: 25px;
+    border-radius: 10px;
+    gap: 32px;
+}   
+.image-con{
+    width: 450px;
+    height: 355px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 18px;
+    border: 1px dotted gray;
+    padding: 32px;
+    gap: 18px;
+}
+.btn-con{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    width: "100%";
+}
+@media (max-width: 768px) {
+    .file-con{
+        width: 340px;
+        padding: 10px;
+        height: 370px;
+        margin: 0 auto;
+    }
+    .image-con{
+        width: 250px;
+        height: 200px;
+    }
+}

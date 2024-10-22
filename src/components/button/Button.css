@@ -1,0 +1,12 @@
+.btn-main-con{
+    background-color:#008080;
+    height: 40px;
+    width: 112px;
+    max-width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    padding: 12 16;
+    color: white;
+}

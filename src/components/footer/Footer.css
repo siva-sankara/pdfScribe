@@ -1,0 +1,134 @@
+.footer {
+    margin-top: 30px;
+    padding: 40px 40px;
+    margin: 30px 20px 50px 40px;
+    font-family: Arial, sans-serif;
+}
+
+.footer-sections {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.footer-section h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 8px;
+}
+.subscribe-section{
+    background-color: #203C860D;
+    padding: 20px;
+
+}
+.subscribe-section .subscribe-form {
+    display: flex;
+    align-items: center;
+ 
+}
+.footer-section p{
+    padding: 10px;
+    font-size: 13px;
+    font-weight: 400;
+    color: gray;
+}
+
+.subscribe-form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    flex: 1;
+}
+
+.subscribe-form button {
+    padding: 10px 15px;
+    background-color: #2a9d8f;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+    
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.footer-links a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #333;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.social-media a {
+    margin-right: 15px;
+    font-size: 18px;
+    color: #333;
+
+}
+
+.social-media a:hover {
+    color: #2a9d8f;
+}
+li{
+    color: gray;
+}
+.description{
+    font-size: 14px;
+    color: gray;
+    font-weight: 400;
+}
+
+.social-media svg{
+    margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+    .footer-sections {
+        flex-direction: column;
+    }
+    .footer-section {
+        margin-bottom: 20px;
+    }
+    .subscribe-section{
+        margin-bottom: 20px;
+    }
+    .footer-links {
+        flex-direction: column;
+    }
+    .footer{
+        margin: 0;
+       margin-top: 50px;
+       padding: 0;
+       width: 100%;
+    
+    }
+    .footer-bottom{
+        padding-top: 10px;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+}

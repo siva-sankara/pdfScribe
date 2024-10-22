@@ -1,0 +1,15 @@
+.dropdown-con{
+    width: "100%";
+    width: 521px;
+    height: 40px;
+    padding: 8px 12px;
+    gap: 314px;
+    margin: 5px 0;
+    border-radius: 10px;
+    border: 1px dotted gray;
+}
+@media (max-width: 768px) {
+    .dropdown-con{
+        width: 250px;
+    }
+}
